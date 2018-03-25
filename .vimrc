@@ -52,8 +52,12 @@ set noshowmode
 color dracula
 set splitbelow
 set splitright
+
+" press enter to switch buffers
 nnoremap <CR> :bn!<CR>
+" press tab to switch panes
 nnoremap <TAB> <C-W><C-W>
+" ctrl+n to toggle nerdtree
 nnoremap <C-N> :NERDTreeToggle<CR>
 
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
