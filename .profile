@@ -9,6 +9,9 @@ export PROJECT_HOME=$HOME/code
 export VIRTUALENVWRAPPER_SCRIPT=/usr/local/bin/virtualenvwrapper.sh
 source /usr/local/bin/virtualenvwrapper_lazy.sh
 # source /usr/local/bin/virtualenvwrapper.sh
+alias load_venv="virtualenvwrapper_load"
+
+alias pip3="python3 -m pip"
 
 # ------------- NODE -------------
 

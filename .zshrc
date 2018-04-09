@@ -35,6 +35,9 @@ alias ss="spotify status"
 
 alias ssaver="/System/Library/CoreServices/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine"
 
+alias celar="clear && echo \"learn how to type goddamn it\""
+alias lcear=celar
+
 # Z config
 . /usr/local/etc/profile.d/z.sh
 
