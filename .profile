@@ -1,6 +1,7 @@
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home"
 export HOMEBREW_NO_AUTO_UPDATE="1"
 export PATH=$PATH:/Users/kevin/code/scripts
+export PATH=$PATH:/usr/local/opt/go/libexec/bin
 
 # ------------ Python ------------
 
