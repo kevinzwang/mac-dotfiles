@@ -1,7 +1,6 @@
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home"
 export HOMEBREW_NO_AUTO_UPDATE="1"
 export PATH=$PATH:/Users/kevin/code/scripts
-export PATH=$PATH:/usr/local/opt/go/libexec/bin
 
 # ------------ Python ------------
 
@@ -19,3 +18,10 @@ alias pip3="python3 -m pip"
 alias load_nvm='export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"'
 alias node='unalias node npm && load_nvm && node'
 alias npm='unalias node npm && load_nvm && npm'
+
+# -------------- GO --------------
+
+export PATH=$PATH:/usr/local/opt/go/libexec/bin
+export GOPATH=$HOME/go
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
