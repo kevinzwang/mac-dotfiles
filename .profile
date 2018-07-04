@@ -17,8 +17,10 @@ alias pip3="python3 -m pip"
 # ------------- NODE -------------
 
 alias load_nvm='export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"'
+alias lnvm=load_nvm
 alias node='unalias node npm && load_nvm && node'
 alias npm='unalias node npm && load_nvm && npm'
+alias npx='load_nvm && npx'
 alias yarn='load_nvm && yarn'
 # export NVM_DIR="/Users/kevin/.nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
