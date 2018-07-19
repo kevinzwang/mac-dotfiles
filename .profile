@@ -3,6 +3,8 @@ export HOMEBREW_NO_AUTO_UPDATE="1"
 export PATH=$PATH:/Users/kevin/code/scripts
 export PATH=$PATH:/Users/kevin/.nvm/versions/node/v*/bin
 
+export ANDROID_HOME=/usr/local/opt/android-sdk
+
 # ------------ Python ------------
 
 export WORKON_HOME=$HOME/.virtualenvs
