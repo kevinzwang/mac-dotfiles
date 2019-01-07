@@ -1,4 +1,9 @@
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home"
+export PATH=/usr/local/bin:$PATH
+export PATH=~/Library/Python/2.7/bin:$PATH
+
+export ANDROID_SDK="/Users/kevin/Library/Android/sdk"
+
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home"
 export HOMEBREW_NO_AUTO_UPDATE="1"
 export PATH=$PATH:/Users/kevin/code/scripts
 export PATH=$PATH:/Users/kevin/.nvm/versions/node/v*/bin

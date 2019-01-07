@@ -16,7 +16,6 @@ Plugin 'dracula/vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'qpkorr/vim-bufkill'
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'Raimondi/delimitMate'
 let delimitMate_expand_cr = 1
 Plugin 'jelera/vim-javascript-syntax'
@@ -28,16 +27,18 @@ filetype plugin indent on
 
 " -------- END VUNDLE --------
 
-" weird stuff to make YCM play nice with DelimitMate
-" (https://github.com/Valloric/YouCompleteMe/issues/2696)
-imap <silent> <BS> <C-R>=YcmOnDeleteChar()<CR><Plug>delimitMateBS
+" " weird stuff to make YCM play nice with DelimitMate
+" " (https://github.com/Valloric/YouCompleteMe/issues/2696)
+" imap <silent> <BS> <C-R>=YcmOnDeleteChar()<CR><Plug>delimitMateBS
 
-function! YcmOnDeleteChar()
-  if pumvisible()
-    return "\<C-y>"
-  endif
-  return "" 
-endfunction
+" function! YcmOnDeleteChar()
+"   if pumvisible()
+"     return "\<C-y>"
+"   endif
+"   return "" 
+" endfunction
+
+let g:dracula_italic = 0
 
 set smartindent
 set tabstop=4

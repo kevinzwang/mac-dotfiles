@@ -13,11 +13,18 @@ alias git=hub
 alias rezsh="source ~/.zshrc"
 # alias g=google
 alias fucking=sudo
+alias please=sudo
 alias c=clear
 
 alias tp=trash-put
 alias tl=trash-list
 alias te=trash-empty
+
+alias sn="spotify next"
+alias sp="spotify prev"
+alias play="spotify play"
+alias pause="spotify pause"
+
 
 alias gcssh="gcloud compute --project \"playground-190619\" ssh --zone \"us-east1-b\" \"instance-2\""
 
