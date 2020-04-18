@@ -35,7 +35,8 @@ alias tt="task due:tomorrow"
 alias ta="task add"
 
 alias java8="export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home"
-alias java9="export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home"
+alias java9="export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home"
+alias java11="export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home"
 
 alias s=spotify
 alias ss="spotify status"
@@ -136,3 +137,7 @@ elif type compctl &>/dev/null; then
   compctl -K _pm2_completion + -f + pm2
 fi
 ###-end-pm2-completion-###
+
+alias stream="iina http://192.168.0.106:8888/"
+alias mong="mongod --config /usr/local/etc/mongod.conf"
+

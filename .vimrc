@@ -39,6 +39,7 @@ filetype plugin indent on
 " endfunction
 
 let g:dracula_italic = 0
+let g:dracula_colorterm = 0
 
 set smartindent
 set tabstop=4

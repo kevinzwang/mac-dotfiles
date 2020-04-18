@@ -12,14 +12,8 @@ export ANDROID_HOME=/usr/local/opt/android-sdk
 
 # ------------ Python ------------
 
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/code
-export VIRTUALENVWRAPPER_SCRIPT=/usr/local/bin/virtualenvwrapper.sh
-source /usr/local/bin/virtualenvwrapper_lazy.sh
-# source /usr/local/bin/virtualenvwrapper.sh
-alias load_venv="virtualenvwrapper_load"
-
 alias pip3="python3 -m pip"
+alias venv="python3 -m venv"
 
 # ------------- NODE -------------
 
@@ -38,3 +32,5 @@ export PATH=$PATH:/usr/local/opt/go/libexec/bin
 export GOPATH=$HOME/go
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
+export PATH="$HOME/.cargo/bin:$PATH"
